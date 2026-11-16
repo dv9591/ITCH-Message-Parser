@@ -1,0 +1,61 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+.venv312/
+.pytest_cache/
+
+# --- Simulation artifacts ---
+*.vvp
+*.vcd
+*.fst
+sim_build/
+
+# --- Vivado ---
+*.jou
+*.log
+.Xil/
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.srcs/
+*.xpr
+
+# --- macOS ---
+.DS_Store
+
+# --- Third-party documents (not ours to redistribute) ---
+NQTVITCHspecification.pdf
+*.pdf
+
+# --- Backups ---
+*.bak
+
+# ---------------------------------------------------------------
+# Superseded files, kept locally but excluded from the repo.
+# Safe to delete from disk; remove these lines when you do.
+# ---------------------------------------------------------------
+
+# Pre-SystemVerilog versions, replaced by the .sv files
+bytereceiver.v
+bytereceiver_tb.v
+
+# Early learning exercise, superseded by counter.v / counter_tb.v
+8-bit_counter.v
+8-bit_counter_tb.v
+
+# Abandoned cocotb setup (never worked; plain Icarus flow used instead)
+Makefile
+test_counter.py
+
+# Early copy, superseded by model/messages.py
+/messages.py
+
+# Stray file with no extension, superseded by model/test_codec.py
+model/test_codec
+
+# Old vector naming scheme, superseded by random_<N>.*
+vectors/random100.*
+vectors/random1000.*
+vectors/random10000.*
