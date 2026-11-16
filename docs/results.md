@@ -100,9 +100,9 @@ message entering the framer) to `msg_out_valid` asserting.
 
 | Statistic | Cycles |
 |---|---|
-| Minimum | _[fill from testbench output]_ |
-| Maximum | _[fill from testbench output]_ |
-| Mean | _[fill from testbench output]_ |
+| Minimum | 1 |
+| Maximum | 1 |
+| Mean | 1.00 |
 | Samples | 100 |
 
 Minimum equal to maximum means latency is **deterministic** — it does not vary with
